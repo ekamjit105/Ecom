@@ -1,0 +1,22 @@
+{
+    "name": "veggies",
+    "variants": ["corn", "jalapeno", "mushroom", "tomato", "onion"],
+    "prices": [
+      {
+        "corn": 20,
+        "jalapeno": 30,
+        "mushroom": 30,
+        "tomato": 40,
+        "onion": 30
+      }
+    ],
+    "varqty": [
+        {
+            "corn": 10,
+            "jalapeno": 12,
+            "mushroom": 13,
+            "tomato": 11,
+            "onion": 12
+          }
+      ]
+}
