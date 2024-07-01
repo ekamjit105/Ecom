@@ -1,0 +1,18 @@
+.card{
+    margin:2%;
+    border-radius: 0;
+    padding: 0;
+    border:1px solid whitesmoke;
+    box-shadow: 5px 10px 10px whitesmoke
+}
+.card-img-top{
+    margin:0;
+}
+
+.variant{
+    padding: 1%;
+    border-radius: 30%;
+    border: 2px solid rgb(196, 196, 196);
+    margin-right:2%;
+    
+}

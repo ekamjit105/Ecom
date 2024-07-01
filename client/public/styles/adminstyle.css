@@ -1,0 +1,37 @@
+.adminbtn{
+    padding: 5%;
+    color: rgb(255, 255, 255);
+    background-color: yellow;
+}
+
+.highlight {
+    background-color: lightgrey;
+  }
+
+.seloption{
+    padding:1%;
+    width:100%;
+}
+
+.seloption:hover{
+    background-color: rgb(211, 210, 210); 
+    cursor: pointer; 
+}
+
+.dashboardheader{
+    padding:2%;
+    border:1px solid lightgrey;
+    margin: 1%;
+    border-radius: 10px;
+    width:30%;
+    background-color: rgb(237, 235, 235);
+    box-shadow: 8px 8px 10px rgb(228, 228, 228);
+}
+
+.dashboardheader:hover{
+width:32%;
+}
+
+.dashboardheader h4{
+    color: rgb(19, 185, 19);
+}

@@ -1,0 +1,18 @@
+<div className='col-sm-3 filterbar'>
+        
+            <h5>Categories</h5>
+            <hr></hr>
+              {!loading&&!error?(<>
+                    {basecat.map(x=>
+                      <h6 className="subcat-list-item" style={{cursor:"pointer", color:"rgb(230,10,10)"}} onClick={()=>(routetocategory({cat:cat,subcat:x,basecat:"NA"}))}>&nbsp;&nbsp;{x}</h6>
+                      )}
+              </>):(<></>)
+
+              }
+
+              <br></br>
+            <h5>Brands</h5>
+            <hr></hr>
+            <h5>Price</h5>
+            <hr></hr>
+        </div>

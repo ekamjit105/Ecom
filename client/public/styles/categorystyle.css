@@ -1,0 +1,54 @@
+.avatarimg{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {    
+    .hideinmobile{
+        display: none;
+    }
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.filterbar{
+    background-color:white;
+    margin-left:4%;
+    padding:1%;
+    border:1px solid rgb(222, 221, 221)
+}
+.displaybar{
+    /*background-color:whitesmoke;
+    */
+    padding-left: 5%;
+    border:1px solid white
+}
+.subcat-list-item:hover{
+    /*font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    */
+    background-color: whitesmoke;
+}
+
+.filter{
+    padding:1%;
+    margin:1%; 
+    border-radius:10px;
+    background-color:#64CDB1;
+    color:white;
+}
+
+.inner-cat2-container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.filterhead{
+    text-transform: uppercase;
+    font-weight: bold;
+}
